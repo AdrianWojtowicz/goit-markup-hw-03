@@ -1,0 +1,399 @@
+body {
+    font-family: Roboto;
+}
+.menu {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.logo-header {
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.web {
+    color: #2196F3;
+}
+
+nav {
+    position: absolute;
+    width: 254px;
+    left: 453px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agencja, .agencja-aktywny {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.agencja:hover, 
+.agencja:focus {
+    color: #2196F3;
+}
+
+.agencja-aktywny {
+    color: #2196f3;
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.portfolio-aktywny {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.portfolio:hover,
+.portfolio:focus {
+    color: #2196F3;
+}
+
+.kontakt {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.kontakt:hover,
+.kontakt:focus,
+.tel-menu:hover,
+.tel-menu:focus,
+.email-menu:hover,
+.email-menu:focus,
+.mail-footer:hover,
+.mail-footer:focus,
+.tel-footer:hover,
+.tel-footer:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.email-menu {
+    margin-left: 718px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.tel-menu {
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.efektywne {
+    width: 696px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-zamow-usluge {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    background: #2196F3;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    padding: 0px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.atuty {
+    width: 1170px;
+    height: 101px;
+    margin-left: 215px;
+    margin-top: 94px;
+}
+
+.tabela-atuty {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.t2, .t3, .t4 {
+    margin-left: 30px;
+}
+
+.t1-naglowek, .t2-naglowek, .t3-naglowek, .t4-naglowek {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin:0px;
+}
+
+.t1-tresc, .t2-tresc, .t3-tresc, .t4-tresc {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+} 
+
+.zajecia {
+    width: 1170px;
+    height: 386px;
+    margin-left: 215px;
+    margin-top: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    align-content: space-between;
+}
+
+.zajecia-naglowek {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+}
+
+.box2, .box3 {
+    margin-left: 30px;
+}
+
+.zespol {
+    margin-top: 0px;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
+
+.nasz-zespół {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+}
+
+.tabela-zespol {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 215px;
+    width: 1170px;
+    height: 368px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zespol-1, .zespol-2, .zespol-3, .zespol-4 {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.zespol-1-imie, .zespol-2-imie, .zespol-3-imie, .zespol-4-imie {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.zespol-1-stan, .zespol-2-stan, .zespol-3-stan, .zespol-4-stan {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.footer-agencja {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    margin-top: 0px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo {
+    margin-top: 60px;
+    margin-left: 215px;
+}
+
+.footer-portfolio {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.studio-footer {
+    color: #FFFFFF;
+}
+
+.adress {
+    width: 255px;
+    height: 81px;
+    margin-top: 20px;
+    margin-left: 215px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    flex-wrap: nowrap;
+}
+
+.adres-footer {
+    color: #FFFFFF;
+}
+
+.mail-footer, .tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.filtry {
+    width: 572px;
+    height: 54px;
+    margin-left: 510px;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 38px;
+    background: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding: 6px 22px;
+}
+
+button:hover {
+    background: #2196F3;
+    color: #fff;
+}
+
+.projekty {
+    width: 1170px;
+    height: 1272px;
+    margin-top: 34px;
+    margin-left: 215px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.kontener {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.projekt-tytul {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.projekt-podpis {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 4px;
+    margin-left: 24px;
+}

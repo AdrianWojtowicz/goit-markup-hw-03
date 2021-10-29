@@ -1,13 +1,24 @@
 body {
     font-family: Roboto;
 }
-.menu {
+
+main {
     width: 1600px;
+}
+
+header {
+    width: 1600px;
+    height: 80px;
+}
+
+.menu {
+    min-width: 1600px;
     height: 80px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
 }
+
 .logo-header {
     width: 145px;
     height: 31px;
@@ -25,9 +36,8 @@ body {
 }
 
 nav {
-    position: absolute;
-    width: 254px;
-    left: 453px;
+    min-width: 254px;
+    margin-left: 93px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +103,7 @@ nav {
 }
 
 .email-menu {
-    margin-left: 718px;
+    margin-left: 371px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -108,20 +118,22 @@ nav {
     color: #757575;
 }
 
-.header {
-    width: 1600px;
+.efektywne {
+    min-width: 1600px;
     height: 600px;
-    left: 0px;
-    top: 80px;
     background: #2F303A;
+}
+
+.efektywne2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    
 }
 
-.efektywne {
+.efektywne-tekst {
     width: 696px;
-    margin-top: 200px;
     margin-bottom: 0px;
     justify-content: center;
     font-weight: 900;
@@ -149,7 +161,7 @@ nav {
 .atuty {
     width: 1170px;
     height: 101px;
-    margin-left: 215px;
+    
     margin-top: 94px;
 }
 
@@ -187,8 +199,8 @@ nav {
 .zajecia {
     width: 1170px;
     height: 386px;
-    margin-left: 215px;
     margin-top: 94px;
+    margin-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -231,10 +243,11 @@ nav {
 .tabela-zespol {
     list-style: none;
     margin-top: 50px;
-    margin-left: 215px;
+    margin-bottom: 0;
+    margin-right: 0px;
+    padding: 0;
     width: 1170px;
     height: 368px;
-    padding: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -264,29 +277,18 @@ nav {
     margin-top: 10px;
 }
 
-.footer-agencja {
+.footer {
     width: 1600px;
     height: 252px;
-    left: 0px;
-    margin-top: 0px;
     background: #2F303A;
-    display: flex;
-    flex-direction: column;
-    
 }
 
-.logo {
-    margin-top: 60px;
-    margin-left: 215px;
-}
-
-.footer-portfolio {
-    position: absolute;
-    width: 1600px;
+.footer2 {
+    min-width: 1600px;
     height: 252px;
-    left: 0px;
-    top: 1628px;
-    background: #2F303A;
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -306,7 +308,6 @@ nav {
     width: 255px;
     height: 81px;
     margin-top: 20px;
-    margin-left: 215px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -327,15 +328,23 @@ nav {
 }
 
 
+.portfolio-strona {
+    width: 1170px;
+    height: 1360px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .filtry {
     width: 572px;
     height: 54px;
-    margin-left: 510px;
-    margin-top: 94px;
-    margin-bottom: 34px;
     list-style: none;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -364,8 +373,6 @@ button:hover {
 .projekty {
     width: 1170px;
     height: 1272px;
-    margin-top: 34px;
-    margin-left: 215px;
     list-style: none;
     padding: 0px;
     display: flex;
@@ -396,4 +403,13 @@ button:hover {
     color: #757575;
     margin-top: 4px;
     margin-left: 24px;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }

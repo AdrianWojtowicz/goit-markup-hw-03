@@ -152,9 +152,12 @@ nav {
 }
 
 .atuty {
+    height: 195px;
+    padding-top: 94px;
+}
+.atuty2 {
     width: 1170px;
     height: 101px;
-    margin-top: 94px;
 }
 
 .tabela-atuty {
@@ -162,12 +165,11 @@ nav {
     padding: 0px;
     margin: 0px;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
 }
 
-.t2, .t3, .t4 {
-    margin-left: 30px;
+.t1, .t2, .t3, .t4 {
+    width: 270px;
 }
 
 .t1-naglowek, .t2-naglowek, .t3-naglowek, .t4-naglowek {
@@ -189,14 +191,17 @@ nav {
 } 
 
 .zajecia {
+    height: 574px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.zajecia2 {
     width: 1170px;
     height: 386px;
-    margin-top: 94px;
-    margin-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0px;
     align-content: space-between;
 }
 
@@ -213,11 +218,9 @@ nav {
 }
 
 .zespol {
-    margin-top: 0px;
-    width: 1600px;
     height: 648px;
-    left: 0px;
-    background: #F5F4FA;
+}
+.zespol2 {
     padding-top: 94px;
     padding-bottom: 94px;
     justify-content: center;
@@ -318,15 +321,18 @@ nav {
     color: rgba(255, 255, 255, 0.6);
 }
 
-
 .portfolio-strona {
+    height: 1548px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-strona2 {
     width: 1170px;
     height: 1360px;
-    margin-top: 94px;
-    margin-bottom: 94px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 

@@ -12,9 +12,10 @@ header {
 }
 
 .menu {
-    min-width: 1600px;
+    width: 1600px;
     height: 80px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 }
@@ -22,7 +23,6 @@ header {
 .logo-header {
     width: 145px;
     height: 31px;
-    margin-left: 215px;
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -119,7 +119,7 @@ nav {
 }
 
 .efektywne {
-    min-width: 1600px;
+    width: 1600px;
     height: 600px;
     background: #2F303A;
 }
@@ -284,9 +284,9 @@ nav {
 }
 
 .footer2 {
-    min-width: 1600px;
+    width: 1600px;
     height: 252px;
-    padding-left: 215px;
+    padding-left: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
